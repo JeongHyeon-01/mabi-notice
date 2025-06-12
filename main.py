@@ -4,6 +4,7 @@ import requests
 import os
 from datetime import datetime
 import json
+import time
 
 def load_previous_notices():
     try:
@@ -23,7 +24,8 @@ def fetch_latest_notices():
             'browser': 'chrome',
             'platform': 'windows',
             'mobile': False
-        }
+        },
+        delay=10  # 요청 간 딜레이 추가
     )
     
     # User-Agent 추가
@@ -37,17 +39,37 @@ def fetch_latest_notices():
         'Sec-Fetch-Dest': 'document',
         'Sec-Fetch-Mode': 'navigate',
         'Sec-Fetch-Site': 'none',
-        'Sec-Fetch-User': '?1'
+        'Sec-Fetch-User': '?1',
+        'Cache-Control': 'max-age=0',
+        'Referer': 'https://mabinogi.nexon.com/'
     }
     
     url = "https://mabinogi.nexon.com/page/news/notice_list.asp"
     try:
+        # 먼저 메인 페이지 방문
+        scraper.get("https://mabinogi.nexon.com/", headers=headers)
+        
+        # 잠시 대기
+        time.sleep(2)
+        
+        # 공지사항 페이지 요청
         res = scraper.get(url, headers=headers)
         print(f"Response status code: {res.status_code}")
         print(f"Response content length: {len(res.text)}")
         
+        # 응답 내용 저장 (디버깅용)
+        with open('response.html', 'w', encoding='utf-8') as f:
+            f.write(res.text)
+        
         soup = BeautifulSoup(res.text, "html.parser")
-        items = soup.select("ul > li")
+        
+        # 선택자 변경 시도
+        items = soup.select(".notice_list li")  # 다른 선택자 시도
+        if not items:
+            items = soup.select("ul.notice_list > li")  # 또 다른 선택자 시도
+        if not items:
+            items = soup.select("li")  # 모든 li 태그 선택
+            
         print(f"Found {len(items)} total items")
         
         # HTML 내용 일부 출력하여 디버깅
