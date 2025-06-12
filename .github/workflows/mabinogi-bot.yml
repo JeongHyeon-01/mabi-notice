@@ -8,9 +8,13 @@ on:
 jobs:
   check-notices:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # 저장소에 쓰기 권한 추가
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} # 토큰 추가
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -35,7 +39,7 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add previous_notices.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update previous notices" && git push)

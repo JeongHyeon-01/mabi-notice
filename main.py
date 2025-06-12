@@ -17,11 +17,13 @@ def save_notices(notices):
         json.dump(notices, f, ensure_ascii=False, indent=2)
 
 def fetch_latest_notices():
+    print("Starting to fetch notices...")
     scraper = cloudscraper.create_scraper()
     url = "https://mabinogi.nexon.com/page/news/notice_list.asp"
     res = scraper.get(url)
     soup = BeautifulSoup(res.text, "html.parser")
     items = soup.select("ul > li")
+    print(f"Found {len(items)} total items")
 
     messages = []
     processed_titles = set()
@@ -35,8 +37,10 @@ def fetch_latest_notices():
         date_tag = item.select_one("span.date")
         if a_tag and date_tag:
             title = a_tag.text.strip()
+            print(f"Processing notice: {title}")
             
             if title in processed_titles:
+                print(f"Skipping duplicate: {title}")
                 continue
                 
             link = "https://mabinogi.nexon.com/page/news/" + a_tag['href']
@@ -60,18 +64,23 @@ def fetch_latest_notices():
 
     # 이전 공지사항과 비교
     previous_notices = load_previous_notices()
-    new_notices = []
+    print(f"Loaded {len(previous_notices)} previous notices")
     
+    new_notices = []
     for notice in current_notices:
         if not any(p['title'] == notice['title'] for p in previous_notices):
             new_notices.append(notice)
+            print(f"Found new notice: {notice['title']}")
 
     # 새로운 공지사항이 있으면 저장하고 메시지 반환
     if new_notices:
+        print(f"Saving {len(current_notices)} notices")
         save_notices(current_notices)
         messages.sort(key=lambda x: x['date'], reverse=True)
         sorted_messages = [msg['content'] for msg in messages]
         return "\n\n".join(sorted_messages)
+    else:
+        print("No new notices found")
     
     return None
 
