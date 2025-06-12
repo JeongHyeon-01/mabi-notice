@@ -25,7 +25,13 @@ jobs:
       - name: Run bot
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        run: python main.py
+        run: |
+          echo "Checking if webhook URL is set..."
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "Error: DISCORD_WEBHOOK_URL is not set"
+            exit 1
+          fi
+          python main.py
 
       - name: Commit and push if changed
         run: |
