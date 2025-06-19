@@ -140,18 +140,29 @@ def fetch_latest_notices():
         return None
 
 def send_to_discord(content):
-    webhook_url = os.getenv('DISCORD_WEBHOOK_URL')
-    if not webhook_url:
+    webhook_urls = os.getenv('DISCORD_WEBHOOK_URL')
+    if not webhook_urls:
         print("Error: DISCORD_WEBHOOK_URL is not set")
         return
-        
+    
+    # 여러 webhook URL을 쉼표로 구분하여 처리
+    webhook_list = [url.strip() for url in webhook_urls.split(',') if url.strip()]
+    
+    if not webhook_list:
+        print("Error: No valid webhook URLs found")
+        return
+    
+    print(f"Sending message to {len(webhook_list)} webhook(s)...")
+    
     data = {"username": "📢 마비노기 알리미", "content": content}
-    try:
-        response = requests.post(webhook_url, json=data)
-        response.raise_for_status()  # HTTP 에러 체크
-        print(f"Successfully sent message to Discord. Status code: {response.status_code}")
-    except requests.exceptions.RequestException as e:
-        print(f"Error sending message to Discord: {e}")
+    
+    for i, webhook_url in enumerate(webhook_list, 1):
+        try:
+            response = requests.post(webhook_url, json=data)
+            response.raise_for_status()  # HTTP 에러 체크
+            print(f"Successfully sent message to Discord webhook {i}. Status code: {response.status_code}")
+        except requests.exceptions.RequestException as e:
+            print(f"Error sending message to Discord webhook {i}: {e}")
 
 def main():
     try:
