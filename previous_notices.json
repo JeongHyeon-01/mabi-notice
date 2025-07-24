@@ -1,5 +1,10 @@
 [
   {
+    "title": "7/31(목) 테스트 서버 초기화 & 정식 서버 캐릭터 복사 일정 안내",
+    "date": "2025.07.24",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892911"
+  },
+  {
     "title": "7/24(목) 정식 서버 점검 안내 (04:00~14:00)",
     "date": "2025.07.22",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892909"
@@ -13,10 +18,5 @@
     "title": "7/22(화) '서비스 오류에 대한 보상 상자' 지급 안내",
     "date": "2025.07.22",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892906"
-  },
-  {
-    "title": "7/24(목) 정식 서버 패치 작업 변경점 안내",
-    "date": "2025.07.22",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892907"
   }
 ]
