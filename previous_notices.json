@@ -1,13 +1,8 @@
 [
   {
-    "title": "(내용추가) 7/25(금) 캐릭터명 경매장 이용 불가 안내",
+    "title": "(내용추가2) 7/25(금) 캐릭터명 경매장 이용 불가 안내",
     "date": "2025.07.25",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892919"
-  },
-  {
-    "title": "[완료/점검보상] 7/25(금) 정식 서버 임시 점검 안내 (06:00~07:30)",
-    "date": "2025.07.24",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892918"
   },
   {
     "title": "(내용추가6) 7/24(목) 패치 후 발생한 문제 안내",
@@ -18,5 +13,10 @@
     "title": "겟잇 뷰티 박스 2025",
     "date": "2025.07.24",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892910"
+  },
+  {
+    "title": "7/25(금) 운영정책 위반 단속 결과 안내",
+    "date": "2025.07.25",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892920"
   }
 ]
