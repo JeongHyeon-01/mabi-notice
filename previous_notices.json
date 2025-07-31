@@ -1,5 +1,10 @@
 [
   {
+    "title": "8/1(금) 테스트 서버 임시 점검 안내 (11:00~13:00)",
+    "date": "2025.07.31",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892929"
+  },
+  {
     "title": "[수정] 7/31(목) 테스트 서버 패치 작업 변경점 안내",
     "date": "2025.07.31",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892926"
@@ -13,10 +18,5 @@
     "title": "2025년 8월 캐릭터 서버 이전, 낭만 농장/달빛 섬 이름 변경 서비스 진행일 안내",
     "date": "2025.07.31",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892925"
-  },
-  {
-    "title": "8월 공개 테스트 서버 버그 리포트 이벤트 안내",
-    "date": "2025.07.31",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892921"
   }
 ]
