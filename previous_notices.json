@@ -1,8 +1,13 @@
 [
   {
-    "title": "8/21(목) 정식 서버 점검 안내 (06:00~13:00)",
+    "title": "온 세상을 귀엽게! 동물 변신 이벤트",
+    "date": "2025.08.21",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892975"
+  },
+  {
+    "title": "8/21(목) 정식 서버 패치 작업 변경점 안내",
     "date": "2025.08.19",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892971"
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892970"
   },
   {
     "title": "[완료] 8/21(목) 테스트 서버 점검 안내 (06:00~09:10)",
@@ -10,8 +15,8 @@
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892972"
   },
   {
-    "title": "8/21(목) 정식 서버 패치 작업 변경점 안내",
+    "title": "[완료] 8/21(목) 정식 서버 점검 안내 (06:00~13:00)",
     "date": "2025.08.19",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892970"
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4892971"
   }
 ]
