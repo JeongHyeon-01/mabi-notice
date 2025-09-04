@@ -1,13 +1,8 @@
 [
   {
-    "title": "[연장] 9/4(목) 테스트 서버 점검 안내 (06:00~12:30)",
-    "date": "2025.09.02",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893008"
-  },
-  {
-    "title": "9/4(목) 정식 서버 점검 안내 (06:00~12:00)",
-    "date": "2025.09.02",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893007"
+    "title": "판의 출석체크판 안내",
+    "date": "2025.09.04",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893011"
   },
   {
     "title": "9/4(목) 정식 서버 패치 작업 변경점 안내",
@@ -15,8 +10,13 @@
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893009"
   },
   {
-    "title": "9/2(화) 마비노기 버그 신고 포상 지급 안내",
+    "title": "[연장] 9/4(목) 테스트 서버 점검 안내 (06:00~12:30)",
     "date": "2025.09.02",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893006"
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893008"
+  },
+  {
+    "title": "[완료] 9/4(목) 정식 서버 점검 안내 (06:00~12:00)",
+    "date": "2025.09.02",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893007"
   }
 ]
