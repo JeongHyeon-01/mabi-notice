@@ -1,6 +1,11 @@
 [
   {
-    "title": "(내용추가2) 9/11(목) 패치 후 발생한 문제 안내",
+    "title": "9/11(목) 정식 서버 채널 점검 안내 (16:00~17:00)",
+    "date": "2025.09.11",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893031"
+  },
+  {
+    "title": "(내용추가3) 9/11(목) 패치 후 발생한 문제 안내",
     "date": "2025.09.11",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893028"
   },
@@ -13,10 +18,5 @@
     "title": "9/11(목) 정식 서버 패치 작업 변경점 안내",
     "date": "2025.09.09",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893022"
-  },
-  {
-    "title": "[완료/점검보상] 9/11(목) 정식 서버 점검 안내 (06:00~12:30)",
-    "date": "2025.09.09",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893023"
   }
 ]
