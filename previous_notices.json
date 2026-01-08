@@ -1,5 +1,10 @@
 [
   {
+    "title": "1/8(목) 패치 후 확인된 현상 안내",
+    "date": "2026.01.08",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893274"
+  },
+  {
     "title": "1/15(목) 테스트 서버 초기화 & 정식 서버 캐릭터 복사 일정 안내",
     "date": "2026.01.08",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893272"
@@ -13,10 +18,5 @@
     "title": "1/8(목) 정식 서버 패치 작업 변경점 안내",
     "date": "2026.01.06",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893268"
-  },
-  {
-    "title": "1/8(목) 정식 서버 점검 안내(07:00 ~ 12:00)",
-    "date": "2026.01.06",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893269"
   }
 ]
