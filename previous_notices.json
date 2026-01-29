@@ -1,5 +1,10 @@
 [
   {
+    "title": "코지 니트 박스",
+    "date": "2026.01.29",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893302"
+  },
+  {
     "title": "1/29(목) 테스트 서버 점검 안내(03:30~12:30)",
     "date": "2026.01.27",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893309"
@@ -10,13 +15,8 @@
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893308"
   },
   {
-    "title": "1/29(목) 정식 서버 점검 안내(03:30~12:00)",
-    "date": "2026.01.27",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893307"
-  },
-  {
-    "title": "1/25(일) 일부 던전 일시 제한 및 오류 현상 안내",
-    "date": "2026.01.25",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893305"
+    "title": "1월 공개 테스트 서버 버그 리포트 이벤트 안내",
+    "date": "2026.01.29",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893312"
   }
 ]
