@@ -1,5 +1,15 @@
 [
   {
+    "title": "2/19(목) 정식 서버 패치 작업 변경점 안내",
+    "date": "2026.02.13",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893391"
+  },
+  {
+    "title": "2/19(목) 정식 서버 점검 안내(6:00~11:00)  ​",
+    "date": "2026.02.13",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893390"
+  },
+  {
     "title": "세공 옵션 수에 따른 정보 반영 안내",
     "date": "2026.02.12",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893385"
@@ -8,15 +18,5 @@
     "title": "(내용추가7) 2/12(목) 패치 후 확인된 현상 안내",
     "date": "2026.02.12",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893343"
-  },
-  {
-    "title": "(내용추가) 2/12(목) 테스트 서버 패치 작업 변경점 안내",
-    "date": "2026.02.12",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893336"
-  },
-  {
-    "title": "2월 명장 공개 테스트 서버 버그 리포트 이벤트 안내",
-    "date": "2026.02.12",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893339"
   }
 ]
