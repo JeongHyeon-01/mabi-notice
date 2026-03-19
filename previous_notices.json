@@ -1,13 +1,8 @@
 [
   {
-    "title": "3/19(목) 테스트 서버 점검 안내(05:30~11:30)",
-    "date": "2026.03.17",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893438"
-  },
-  {
-    "title": "3/19(목) 정식 서버 점검 안내(05:30~11:00)",
-    "date": "2026.03.17",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893437"
+    "title": "3/26(목) 테스트 서버 초기화 & 정식 서버 캐릭터 복사 일정 안내",
+    "date": "2026.03.19",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893439"
   },
   {
     "title": "(수정) 3/19(목) 정식 서버 패치 작업 변경점 안내",
@@ -15,8 +10,13 @@
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893436"
   },
   {
-    "title": "[완료] 3/17(화) 정식 서버 일부 채널 점검 안내 (15:27~16:00)",
+    "title": "2월 명장 공개 테스트 서버 버그 리포트 이벤트 당첨자 안내",
+    "date": "2026.03.19",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893426"
+  },
+  {
+    "title": "3/19(목) 테스트 서버 점검 안내(05:30~11:30)",
     "date": "2026.03.17",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893435"
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893438"
   }
 ]
