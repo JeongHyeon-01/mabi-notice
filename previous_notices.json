@@ -1,5 +1,15 @@
 [
   {
+    "title": "8000일 온타임 이벤트",
+    "date": "2026.05.14",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893519"
+  },
+  {
+    "title": "22주년 판타지 파티 안내",
+    "date": "2026.05.14",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893506"
+  },
+  {
     "title": "5/14(목) 테스트 서버 점검 안내(5:30~14:30)",
     "date": "2026.05.12",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893517"
@@ -8,10 +18,5 @@
     "title": "5/14(목) 정식 서버 점검 안내(5:30~12:30)",
     "date": "2026.05.12",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893515"
-  },
-  {
-    "title": "5/14(목) 정식 서버 패치 작업 변경점 안내",
-    "date": "2026.05.12",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893513"
   }
 ]
