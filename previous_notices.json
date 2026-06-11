@@ -1,10 +1,5 @@
 [
   {
-    "title": "6/11(목) 테스트 서버 임시 점검 안내 (17:40~18:30)",
-    "date": "2026.06.11",
-    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893573"
-  },
-  {
     "title": "[완료/점검보상] 6/11(목) 정식 서버 임시 점검 안내 (15:20~15:52)",
     "date": "2026.06.11",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893572"
@@ -15,8 +10,13 @@
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893570"
   },
   {
-    "title": "(내용추가3) 6/11(목) 패치 후 확인된 현상 안내",
+    "title": "(내용추가4) 6/11(목) 패치 후 확인된 현상 안내",
     "date": "2026.06.11",
     "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893571"
+  },
+  {
+    "title": "마비노기 22주년 이벤트 안내",
+    "date": "2026.06.11",
+    "link": "https://mabinogi.nexon.com/page/news/notice_view.asp?id=4893569"
   }
 ]
